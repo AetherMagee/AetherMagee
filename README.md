@@ -6,5 +6,5 @@
 ```python
 from life.me.mindset import favouritethings
 
-favouritethings.add(name="programming", priority=727)
+favouritethings.add(name="programming", priority=727)  # WYSI
 ```
