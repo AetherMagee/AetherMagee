@@ -8,3 +8,13 @@ from life.me.mindset import favouritethings
 
 favouritethings.add(name="programming", priority=727)  # WYSI
 ```
+
+```python
+from aethermanager import bot, events, logger
+from database.servicelayer.service import addUserEntry
+
+@bot.on(events.NewMessage(pattern="hello", func=lambda x: x.is_private))
+async def hello(msg):
+  await msg.reply("Hi!")
+  addUserEntry(msg.sender.id)
+```
