@@ -13,7 +13,7 @@ favouritethings.add(name="programming", priority=727)  # WYSI
 from aethermanager import bot, events, logger
 from database.servicelayer.service import addUserEntry
 
-@bot.on(events.NewMessage(pattern="hello", func=lambda x: x.is_private))
+@bot.on(events.NewMessage(pattern="(?i).*hello*", func=lambda x: x.is_private))
 async def hello(msg):
   await msg.reply("Hi!")
   addUserEntry(msg.sender.id)
