@@ -1,10 +1,10 @@
-# Hello there! =)
+# Hello there.
 ## Currently Learning: [\*nothing\*](https://youtube.com/watch?v=17Jq0QqK4k0)
 ## Current Project: [\*none\*](https://youtube.com/watch?v=17Jq0QqK4k0)
 
 ## Past Projects:
 - **AetherManager** - A Telegram chat manager bot, designed to provide **_chat cleanup_** and **_sequrity_**, while being **_quiet_** and **_fast_**
-- **MCSOTIS** - One of my discontinued projects, intended to help you install and manage Minecraft servers on your phone via Termux easily
+- **MCSOTIS** - One of my first "projects", intended to help you install and manage Minecraft servers on your phone via Termux easily
 
 ## Some code because why not
 ```python
