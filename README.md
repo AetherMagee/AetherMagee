@@ -1,24 +1,35 @@
-# Hello there.
-## Currently Learning: [\*nothing\*](https://youtube.com/watch?v=17Jq0QqK4k0)
-## Current Project: [GeminiBot](https://github.com/AetherMagee/GeminiNew)
+# Hi there! 👋  
 
-## Past Projects:
-- **AetherManager** - A Telegram chat manager bot, designed to provide **_chat cleanup_** and **_sequrity_**, while being **_quiet_** and **_fast_**
-- **MCSOTIS** - One of my first "projects", intended to help you install and manage Minecraft servers on your phone via Termux easily
+I'm **Aether**, a passionate developer working on automation, AI, IT security and Android customization.
 
-## Some code because why not
-```python
-from life.me.mindset import favouritethings
+---
 
-favouritethings.add(name="programming", priority=727)  # WYSI
-```
+## 🔧 What I Work On  
 
-```python
-from aethermanager import bot, events, logger
-from database.servicelayer.service import addUserEntry
+- **Automation & AI 🤖**  
+  - **GeminiBot** (Private) – A Telegram chatbot powered by AI. Try it out: [@aethergeminibot](https://t.me/aethergeminibot)  
+  - [ytm-autodl-likes](https://github.com/AetherMagee/ytm-autodl-likes) – Automatically download your liked songs from YouTube Music.  
+  - [Auto-Cursor](https://github.com/AetherMagee/auto-cursor) – Automatically create Cursor accounts and use them in your local editor.
 
-@bot.on(events.NewMessage(pattern="(?i).*hello*", func=lambda x: x.is_private))
-async def hello(msg):
-  await msg.reply("Hi!")
-  addUserEntry(msg.sender.id)
-```
+- **Android Development & Customization 📱**  
+  - [KillergramNeo](https://github.com/AetherMagee/KillergramNeo) – An Xposed module for enhancing Telegram. 
+  - [dotfiles](https://github.com/AetherMagee/dotfiles) – Minimalistic ZSH dotfiles with powerlevel10k and antidote.
+
+- **Bots 🤖**  
+  - [bc-bot](https://github.com/AetherMagee/bc-bot) – A Telegram bot with various handy utils like realtime currency conversion, message layout conversion, roulette-like games and more.
+
+---
+
+## 🚀 Technologies I Use  
+
+🔹 **Languages:** Python, Kotlin, scripting languages (bash, etc), others
+
+🔹 **Tools & Frameworks:** Aiogram/Telethon, Xposed, Spigot API, Chromium extensions, AI services
+
+🔹 **Interests:** Automation, AI 
+
+---
+
+## 📫 Contact Me  
+
+📧 **Email:** aether@pierdoling.org
